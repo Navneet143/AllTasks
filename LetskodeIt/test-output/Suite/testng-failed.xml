@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Test.PraticePageTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="checkCheckbox"/>
+          <include name="checkTab"/>
+          <include name="checkEnable"/>
+          <include name="openChrome"/>
+          <include name="checkAlert"/>
+          <include name="CheckRadioButton"/>
+          <include name="checkIframe"/>
+          <include name="checkHideFunction"/>
+          <include name="checkMulitpleSelect"/>
+          <include name="checkOptions"/>
+          <include name="checkWindow"/>
+        </methods>
+      </class> <!-- Test.PraticePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

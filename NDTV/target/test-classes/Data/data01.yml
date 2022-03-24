@@ -1,0 +1,13 @@
+xpath:
+   main_menu: "//a[@id=\"h_sub_menu\"]"
+   weather: "//a[text()=\"WEATHER\"]"
+   listofcities: "//input[@type=\"checkbox\"]"
+   temperature: "//div[@title=\"%s\"]//span[@class]"
+   checkbox: "//input[@id=\"%s\"]"
+   option: "xyz"
+city:
+   - Ajmer
+   - Guwahati
+   - Amritsar
+   - Mumbai
+   - Kashmir

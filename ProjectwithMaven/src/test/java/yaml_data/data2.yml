@@ -1,0 +1,9 @@
+--- # Application configuration - application.yaml
+author: Franc
+database:
+         driver: com.mysql.jdbc.Driver
+         port: 3306
+         dbname: mydb
+         username: root
+         password:
+version: 7.98.67

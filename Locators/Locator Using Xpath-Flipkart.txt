@@ -1,0 +1,71 @@
+Topic:-Flipkart Elments Xpath
+
+1.Enter Email/Mobile number
+//form[@autocomplete="on"]//input[@type="text" ]
+
+2. Enter Password
+//form[@autocomplete="on"]//input[@type="password" ]
+
+3. Forgot?
+//a[contains(span, "Forgot")]
+
+4. Login 
+//button[span="Login"]
+//form[@autocomplete="on"]//button[@type="submit"]
+
+5. Request OTP
+Bestsellers Store Online - Buy Bestsellers Online at Best Price in India | Flipkart.com
+
+6. New to Flipkart?Create an Account
+//a[contains(text(),"New")]
+//a[contains(text(),"New") and //form[@autocomplete="on"]]
+
+7. '✕' 
+//button[text()='✕']
+//button[text()='✕' and //div[@tabindex="-1"]]
+
+8. Login button on Main Screen
+//a[contains(text(),'Login')]
+
+9. More
+//div[text()="More"]
+Doubt:-//div[contains(text(),"More")]
+
+10. Cart
+//a[span='Cart']
+//span[contains(text(),'Cart')]
+
+11. Electronics 
+//span[contains(text(),'Elec')]
+
+12. Bestsellers
+//h1[contains(text(),'Best')]
+
+13. VIEW ALL
+//a[span[text()='VIEW ALL']]
+
+14. Flipkart title at HomePage
+//img[@title='Flipkart']
+
+15. Serach Bar
+//input[@name='q' or contains(@title,'Search')]
+
+16. Search Button 
+//button[@type='submit']
+Doubt 
+//button[@type='submit' and g[@fill-rule="evenodd"]]
+
+17. Top Offers 
+//img[contains(@alt,'Top Offers')]//ancestor::a
+
+18. Explore Plus 
+
+//a[contains(text(),"Explore")]
+//a[contains(text(),"Explore") or contains(@href,"/plus")]
+
+19. Arrow to move left 
+(//*[ local-name()="svg"][@height="27"])[1]
+
+20. Arrow to move right 
+(//*[ local-name()="svg"][@height="27"])[2]
+

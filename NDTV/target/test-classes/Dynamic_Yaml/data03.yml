@@ -1,0 +1,28 @@
+data:
+   - user1:
+       - fname: 
+           first: 
+              fname: 
+                 first: 
+                    name: 
+                       - Title: "Mr."
+                       - Name: "Ajay"
+       - lname:
+            last:
+               name: 
+                  - primary: "Kumar"
+                  - secondary: "Khana"  
+   - user2:
+       - fname: 
+             first: 
+                name: 
+                   - Title: "Mrs."
+                   - Name: "Ankita"
+       - lname:
+            last:
+                  name: 
+                     - primary: "Yadav"
+                     - secondary: "Khan"
+parent: 
+   child1: 
+      child2: "xyz"

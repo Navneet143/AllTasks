@@ -1,0 +1,19 @@
+{
+  "name" : "coderolls",
+  "type" : "blog",
+  "address" : {
+    "street" : "1600 Pennsylvania Avenue NW",
+    "city" : "Washington",
+    "state" : "DC"
+  },
+  "employees" : [ {
+    "firstName" : "John",
+    "lastName" : "Doe"
+  }, {
+    "firstName" : "Anna",
+    "lastName" : "Smith"
+  }, {
+    "firstName" : "Peter",
+    "lastName" : "Jones"
+  } ]
+}

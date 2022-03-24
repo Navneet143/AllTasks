@@ -1,0 +1,14 @@
+link: "https://courses.letskodeit.com/practice"
+fruits: "peach,orange"
+locator1: 
+   locatortype: xpath
+   locatorvalue: "//select[@name=\"multiple-select-example\"]"
+locator2: 
+   locatortype: name
+   locatorvalue: "multiple-select-example"
+locator3: 
+   locatortype: id
+   locatorvalue: "multiple-select-example"
+locator4: 
+   locatortype: css
+   locatorvalue: "[name=\"multiple-select-example\"]"

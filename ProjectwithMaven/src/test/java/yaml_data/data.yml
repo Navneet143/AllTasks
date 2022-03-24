@@ -1,0 +1,11 @@
+site: "https://www.ndtv.com/"
+xpath:
+   main_menu: "//a[@id=\"h_sub_menu\"]"
+   weather: "//a[text()=\"WEATHER\"]"
+   Listofcities: "//input[@type=\"checkbox\"]"
+   Temperature: "//div[@title=\"%s\"]//span[@class]"
+employee:
+   name: Bruce
+   year: 2020
+   address: Gotham City
+   department: Computer Science

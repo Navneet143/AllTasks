@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-18T17:22:55 IST" name="Default suite" finished-at="2022-02-18T17:23:35 IST" duration-ms="39412">
+    <groups>
+    </groups>
+    <test started-at="2022-02-18T17:22:55 IST" name="Default test" finished-at="2022-02-18T17:23:35 IST" duration-ms="39412">
+      <class name="test_Pages.TestNG">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:22:55 IST" name="setUp" finished-at="2022-02-18T17:23:01 IST" duration-ms="5631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="welcomeBoard()[pri:0, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:23:01 IST" name="welcomeBoard" finished-at="2022-02-18T17:23:02 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomeBoard -->
+        <test-method signature="selectFlight()[pri:1, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:23:02 IST" name="selectFlight" finished-at="2022-02-18T17:23:05 IST" duration-ms="2215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlight -->
+        <test-method signature="passengerDetails()[pri:2, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:23:05 IST" name="passengerDetails" finished-at="2022-02-18T17:23:11 IST" duration-ms="5941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passengerDetails -->
+        <test-method signature="selectSeatAndMeal()[pri:3, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:23:11 IST" name="selectSeatAndMeal" finished-at="2022-02-18T17:23:30 IST" duration-ms="19725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSeatAndMeal -->
+        <test-method signature="payment()[pri:4, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:23:30 IST" name="payment" finished-at="2022-02-18T17:23:30 IST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- payment -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:test_Pages.TestNG@54bff557]" started-at="2022-02-18T17:23:30 IST" name="tearDown" finished-at="2022-02-18T17:23:35 IST" duration-ms="4290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test_Pages.TestNG -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

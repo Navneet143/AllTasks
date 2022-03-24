@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SampleSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Temperature(failed)">
+    <parameter name="city" value="Jaipur"/>
+    <classes>
+      <class name="ndtv.Temperature_Param">
+        <methods>
+          <include name="temperature"/>
+          <include name="OpenBrowser"/>
+          <include name="Click_Weather"/>
+          <include name="Close_Browser"/>
+        </methods>
+      </class> <!-- ndtv.Temperature_Param -->
+    </classes>
+  </test> <!-- Temperature(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

@@ -1,0 +1,51 @@
+------CSS Selectors----------------
+# for id Example Tag#id
+. for class Example Tag.class_name
+[] attributes Example Tag[attribute="value"]
+.[] class+attributes Example Tag.class[attribute="value"]
+tag:contains["inner text"] 
+
+------Xpath----------------
+
+Format 
+
+Basic Xpath
+//*Tagname[@attribute='value']
+
+Xpath Contains
+//*Tagname[contains(@attribute,'value')]
+
+Xpath OR & AND
+
+//*Tagname[@attribute1="value1" or @attribute2='value2']
+//*Tagname[@attribute1="value1" and @attribute2='value2']
+
+Xpath Starts-with
+
+//*Tagname[starts-with(@attribute="value")]
+
+Xpath axes methods:-  
+
+following
+all elment after the current node 
+//*Tagname[@attribute='value']//following::Tagname
+
+preceding 
+all the element before the current node except ancestors 
+//*Tagname[@attribute='value']//preceding::Tagname 
+
+ancestor
+all the parent, gradparent of the current node 
+//*Tagname[@attribute='value']//ancestor::Tagname
+
+self
+select the current node 
+//*Tagname[@attribute='value']//self::Tagname
+
+child 
+get the child node of current node 
+//*Tagname[@attribute='value']//child::Tagname 
+
+descendant 
+select all the child of the current node 
+//*Tagname[@attribute='value']//descedent::Tagname 

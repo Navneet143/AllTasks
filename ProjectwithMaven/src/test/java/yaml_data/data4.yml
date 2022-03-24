@@ -1,0 +1,10 @@
+employee:
+   - name: Amit
+     age: 45
+     address: House No. 42, Mumbai
+   - name: Ashu
+     age: 47
+     address: House No. 43, Mumbai
+   - name: Aman
+     age: 49
+     address: House No. 47, Mumbai

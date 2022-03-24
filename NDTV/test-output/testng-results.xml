@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-07T15:53:00 IST" name="Default suite" finished-at="2022-03-07T15:53:22 IST" duration-ms="21983">
+    <groups>
+    </groups>
+    <test started-at="2022-03-07T15:53:00 IST" name="Default test" finished-at="2022-03-07T15:53:22 IST" duration-ms="21983">
+      <class name="With_Yaml.Temperature_yaml">
+        <test-method is-config="true" signature="read_value()[pri:0, instance:With_Yaml.Temperature_yaml@1d9b7cce]" started-at="2022-03-07T15:53:00 IST" name="read_value" finished-at="2022-03-07T15:53:00 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read_value -->
+        <test-method is-config="true" signature="read_data()[pri:0, instance:With_Yaml.Temperature_yaml@1d9b7cce]" started-at="2022-03-07T15:53:00 IST" name="read_data" finished-at="2022-03-07T15:53:01 IST" duration-ms="528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- read_data -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:With_Yaml.Temperature_yaml@1d9b7cce]" started-at="2022-03-07T15:53:01 IST" name="OpenBrowser" finished-at="2022-03-07T15:53:11 IST" duration-ms="10623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="CheckTemperature()[pri:0, instance:With_Yaml.Temperature_yaml@1d9b7cce]" started-at="2022-03-07T15:53:11 IST" name="CheckTemperature" finished-at="2022-03-07T15:53:22 IST" duration-ms="10785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTemperature -->
+        <test-method is-config="true" signature="CloseBroswer()[pri:0, instance:With_Yaml.Temperature_yaml@1d9b7cce]" started-at="2022-03-07T15:53:22 IST" name="CloseBroswer" finished-at="2022-03-07T15:53:25 IST" duration-ms="3127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBroswer -->
+      </class> <!-- With_Yaml.Temperature_yaml -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

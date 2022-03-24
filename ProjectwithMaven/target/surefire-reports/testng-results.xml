@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test.test01" duration-ms="8315" started-at="2022-03-09T12:37:14 IST" finished-at="2022-03-09T12:37:22 IST">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="8315" started-at="2022-03-09T12:37:14 IST" finished-at="2022-03-09T12:37:22 IST">
+      <class name="Test.test01">
+        <test-method status="PASS" signature="openchrome()[pri:0, instance:Test.test01@2758fe70]" name="openchrome" duration-ms="8259" started-at="2022-03-09T12:37:14 IST" finished-at="2022-03-09T12:37:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openchrome -->
+      </class> <!-- Test.test01 -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Test.test01 -->
+</testng-results>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="44136" started-at="2022-03-15T17:49:50 IST" finished-at="2022-03-15T17:50:34 IST">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="44136" started-at="2022-03-15T17:49:50 IST" finished-at="2022-03-15T17:50:34 IST">
+      <class name="Test.PraticePageTest">
+        <test-method status="PASS" signature="openChrome()[pri:0, instance:Test.PraticePageTest@1563da5]" name="openChrome" is-config="true" duration-ms="14555" started-at="2022-03-15T17:49:50 IST" finished-at="2022-03-15T17:50:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method status="PASS" signature="CheckRadioButton()[pri:0, instance:Test.PraticePageTest@1563da5]" name="CheckRadioButton" duration-ms="397" started-at="2022-03-15T17:50:04 IST" finished-at="2022-03-15T17:50:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRadioButton -->
+        <test-method status="PASS" signature="checkAlert()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkAlert" duration-ms="397" started-at="2022-03-15T17:50:05 IST" finished-at="2022-03-15T17:50:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAlert -->
+        <test-method status="PASS" signature="checkCheckbox()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkCheckbox" duration-ms="378" started-at="2022-03-15T17:50:05 IST" finished-at="2022-03-15T17:50:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCheckbox -->
+        <test-method status="PASS" signature="checkEnable()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkEnable" duration-ms="395" started-at="2022-03-15T17:50:06 IST" finished-at="2022-03-15T17:50:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkEnable -->
+        <test-method status="PASS" signature="checkHideFunction()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkHideFunction" duration-ms="231" started-at="2022-03-15T17:50:06 IST" finished-at="2022-03-15T17:50:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkHideFunction -->
+        <test-method status="PASS" signature="checkIframe()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkIframe" duration-ms="4366" started-at="2022-03-15T17:50:06 IST" finished-at="2022-03-15T17:50:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkIframe -->
+        <test-method status="PASS" signature="checkMulitpleSelect()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkMulitpleSelect" duration-ms="814" started-at="2022-03-15T17:50:11 IST" finished-at="2022-03-15T17:50:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMulitpleSelect -->
+        <test-method status="PASS" signature="checkOptions()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkOptions" duration-ms="183" started-at="2022-03-15T17:50:11 IST" finished-at="2022-03-15T17:50:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOptions -->
+        <test-method status="PASS" signature="checkTab()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkTab" duration-ms="16497" started-at="2022-03-15T17:50:12 IST" finished-at="2022-03-15T17:50:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTab -->
+        <test-method status="PASS" signature="checkWindow()[pri:0, instance:Test.PraticePageTest@1563da5]" name="checkWindow" duration-ms="5413" started-at="2022-03-15T17:50:28 IST" finished-at="2022-03-15T17:50:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkWindow -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.PraticePageTest@1563da5]" name="closeBrowser" is-config="true" duration-ms="412" started-at="2022-03-15T17:50:34 IST" finished-at="2022-03-15T17:50:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.PraticePageTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

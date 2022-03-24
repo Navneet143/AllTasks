@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleSuite">
+	<test name="GroupTest">
+		<groups>
+			<define name="all">
+				<include name="functest"></include>
+			</define>
+			<run>
+				<include name="all"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="TestNg.GroupTestExample"></class>
+		</classes>
+	</test>
+	<test name="ParameterTest">
+		<parameter name="myName" value="Ben"></parameter>
+<classes><class name="TestNg.Parameter"></class></classes>
+	</test>
+</suite>

@@ -1,0 +1,23 @@
+team: 
+   type1: Development
+   type2: Testing
+application:
+    name: Google
+    url: http://google.com
+config:
+    ips:
+      - 10.10.10.10
+      - 10.10.10.11
+    filesystem:
+      - /user/local
+      - /user/admin
+users: 
+    root:
+      username: root
+      password: r@pass
+    guest01:
+      username: guest01
+      password: g@pass01
+    guest02:
+      username: guest02
+      password: g@pass02

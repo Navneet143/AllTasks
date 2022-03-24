@@ -1,0 +1,31 @@
+application:
+    name: abc
+    url: http://google.com
+    
+config:
+    ips:
+      - 10.10.10.10
+      - 10.10.10.11
+    filesystem:
+      - /user/local
+      - /user/admin
+    local:
+       - 10.10.10.10
+       - 10.10.10.11
+users: 
+    root:
+      username: root
+      password: r@pass
+    guest01:
+      username: guest01
+      password: g@pass01
+    guest02:
+      username: guest02
+      password: g@pass02
+    guest03:
+      username: guest03
+      password: g@pass03
+    guest04:
+      username: guest&
+      password: g@pass& 
+         

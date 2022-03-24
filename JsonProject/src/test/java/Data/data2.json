@@ -1,0 +1,6 @@
+{ "data":[
+	{"name":{"f_name:":"Akshay","l_name":"Khana"},"age": 26,"course":"B.Tech" },
+	{"name":"Sham","age": 23,"course":"B.Tech"},
+	{"name":"Keshav","age": 24,"course":"B.Tech"},
+	{"name":"Karan","age": 24,"course":"B.Tech", "batch":"2018-2022"}
+]}

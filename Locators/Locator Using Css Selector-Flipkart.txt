@@ -1,0 +1,23 @@
+Topic:-Flipkart Elments Xpath
+
+1 Flipkart tilte at Homepage 
+img[alt*="Flipkart"]
+
+2. Explore Plus 
+a[href="/plus"]
+
+3. Search Bar
+input[type="text"][title*="Search"]
+
+4. Search Icon 
+button[type="submit"]
+
+5. Login Button
+a[href*="login"]
+
+6. Cart Icon
+a[href*="cart"]
+
+7. Top Offers 
+a[href*="offer"]
+
