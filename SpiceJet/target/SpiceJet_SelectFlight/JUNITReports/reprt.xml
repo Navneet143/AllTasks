@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="38.008">
+    <testcase classname="select any flight and choose spicemax radio button" name="validate spiceJet flight search page" time="12.458">
+        <failure message="element click intercepted: Element &lt;div class=&quot;css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73&quot; data-focusable=&quot;true&quot; tabindex=&quot;0&quot; data-testid=&quot;home-page-flight-cta&quot; style=&quot;background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;&quot;&gt;...&lt;/div&gt; is not clickable at point (419, 524). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=99.0.4844.82)&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5a90ddee32e4800f726c3cf2629f80de, clickElement {id=55db0547-716e-426c-a77c-0713973b7af3}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (5a90ddee32e4800f726c3cf2629f80de)] -&gt; xpath: //*[@data-testid=&quot;home-page-flight-cta&quot;]]&#10;Session ID: 5a90ddee32e4800f726c3cf2629f80de" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given user is on spiceJet welcome board page................................passed
+When user select "DEL" and "BLR" cities.....................................passed
+And user select "20-March-2022" from calender...............................passed
+And user click on search flight.............................................failed
+Then user nevigate to flights page..........................................skipped
+Given user is on spiceJet flight search page................................skipped
+When user select any flight.................................................skipped
+And user select "Spicemax" and fetch flight number and price................skipped
+And user click on continue button...........................................skipped
+Then user navigate to passengers page.......................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (419, 524). Other element would receive the click: <div class="css-1dbjc4n">...</div>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5a90ddee32e4800f726c3cf2629f80de, clickElement {id=55db0547-716e-426c-a77c-0713973b7af3}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56817}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56817/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5a90ddee32e4800f726c3cf2629f80de)] -> xpath: //*[@data-testid="home-page-flight-cta"]]
+Session ID: 5a90ddee32e4800f726c3cf2629f80de
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at spiceJet_Pages.Welcome_Board.searchButton(Welcome_Board.java:40)
+	at spiceJet_Steps.SpiceJet_WelcomeBoard.user_click_on_search_flight(SpiceJet_WelcomeBoard.java:36)
+	at ✽.user click on search flight(file:///C:/Users/admin/Desktop/Tasks/SpiceJet/src/test/resources/Features/SpiceJet_SelectFlight.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="select any flight and choose spicemax radio button" name="validate spiceJet flight search page 2" time="11.169">
+        <failure message="element click intercepted: Element &lt;div class=&quot;css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73&quot; data-focusable=&quot;true&quot; tabindex=&quot;0&quot; data-testid=&quot;home-page-flight-cta&quot; style=&quot;background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;&quot;&gt;...&lt;/div&gt; is not clickable at point (419, 524). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=99.0.4844.82)&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ab58167a754714bb3f9b4701073a1a6f, clickElement {id=61b1f642-a32b-4fc7-a848-fed27cff636e}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56894/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (ab58167a754714bb3f9b4701073a1a6f)] -&gt; xpath: //*[@data-testid=&quot;home-page-flight-cta&quot;]]&#10;Session ID: ab58167a754714bb3f9b4701073a1a6f" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given user is on spiceJet welcome board page................................passed
+When user select "DEL" and "BLR" cities.....................................passed
+And user select "20-March-2022" from calender...............................passed
+And user click on search flight.............................................failed
+Then user nevigate to flights page..........................................skipped
+Given user is on spiceJet flight search page................................skipped
+When user select any flight.................................................skipped
+And user select "Spicesaver" and fetch flight number and price..............skipped
+And user click on continue button...........................................skipped
+Then user navigate to passengers page.......................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (419, 524). Other element would receive the click: <div class="css-1dbjc4n">...</div>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab58167a754714bb3f9b4701073a1a6f, clickElement {id=61b1f642-a32b-4fc7-a848-fed27cff636e}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56894}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56894/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (ab58167a754714bb3f9b4701073a1a6f)] -> xpath: //*[@data-testid="home-page-flight-cta"]]
+Session ID: ab58167a754714bb3f9b4701073a1a6f
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at spiceJet_Pages.Welcome_Board.searchButton(Welcome_Board.java:40)
+	at spiceJet_Steps.SpiceJet_WelcomeBoard.user_click_on_search_flight(SpiceJet_WelcomeBoard.java:36)
+	at ✽.user click on search flight(file:///C:/Users/admin/Desktop/Tasks/SpiceJet/src/test/resources/Features/SpiceJet_SelectFlight.feature:7)
+]]></failure>
+    </testcase>
+    <testcase classname="select any flight and choose spicemax radio button" name="validate spiceJet flight search page 3" time="13.959">
+        <failure message="element click intercepted: Element &lt;div class=&quot;css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73&quot; data-focusable=&quot;true&quot; tabindex=&quot;0&quot; data-testid=&quot;home-page-flight-cta&quot; style=&quot;background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;&quot;&gt;...&lt;/div&gt; is not clickable at point (419, 524). Other element would receive the click: &lt;div class=&quot;css-1dbjc4n&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=99.0.4844.82)&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [336b88512a66c59965db13037a430bf8, clickElement {id=9e7a8fb7-6ffb-4c2c-aaca-664641597c36}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56991/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (336b88512a66c59965db13037a430bf8)] -&gt; xpath: //*[@data-testid=&quot;home-page-flight-cta&quot;]]&#10;Session ID: 336b88512a66c59965db13037a430bf8" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[Given user is on spiceJet welcome board page................................passed
+When user select "DEL" and "BLR" cities.....................................passed
+And user select "20-March-2022" from calender...............................passed
+And user click on search flight.............................................failed
+Then user nevigate to flights page..........................................skipped
+Given user is on spiceJet flight search page................................skipped
+When user select any flight.................................................skipped
+And user select "Spiceflex" and fetch flight number and price...............skipped
+And user click on continue button...........................................skipped
+Then user navigate to passengers page.......................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-1g94qm0 r-1w50u8q r-ah5dr5 r-1otgn73" data-focusable="true" tabindex="0" data-testid="home-page-flight-cta" style="background-image: linear-gradient(rgb(252, 182, 62), rgb(247, 148, 29)); margin-left: 12px; padding-right: 20px; padding-left: 20px; width: 162px;">...</div> is not clickable at point (419, 524). Other element would receive the click: <div class="css-1dbjc4n">...</div>
+  (Session info: chrome=99.0.4844.82)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [336b88512a66c59965db13037a430bf8, clickElement {id=9e7a8fb7-6ffb-4c2c-aaca-664641597c36}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.82, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56991}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56991/devtoo..., se:cdpVersion: 99.0.4844.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (336b88512a66c59965db13037a430bf8)] -> xpath: //*[@data-testid="home-page-flight-cta"]]
+Session ID: 336b88512a66c59965db13037a430bf8
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at spiceJet_Pages.Welcome_Board.searchButton(Welcome_Board.java:40)
+	at spiceJet_Steps.SpiceJet_WelcomeBoard.user_click_on_search_flight(SpiceJet_WelcomeBoard.java:36)
+	at ✽.user click on search flight(file:///C:/Users/admin/Desktop/Tasks/SpiceJet/src/test/resources/Features/SpiceJet_SelectFlight.feature:7)
+]]></failure>
+    </testcase>
+</testsuite>

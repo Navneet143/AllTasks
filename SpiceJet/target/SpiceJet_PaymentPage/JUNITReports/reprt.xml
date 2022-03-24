@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="42.79">
+    <testcase classname="verify selected cities are displayed correctly and flight prices are same or not" name="validate selected cities are displayed correctly and flight prices are same or not" time="42.257">
+        <failure message="Unable to find element with locator By.xpath: (//*[text()=&quot;5,619&quot;])[1]&#10;For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element&#10;Build info: version: '4.1.1', revision: 'e8fcc2cecf'&#10;System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given user is on spiceJet welcome board page................................passed
+When user select "DEL" and "BLR" cities.....................................passed
+And user select "21-April-2022" from calender...............................passed
+And user click on search flight.............................................passed
+Then user nevigate to flights page..........................................passed
+Given user is on spiceJet flight search page................................passed
+When user select any flight.................................................passed
+And user select "Spicemax" and fetch flight number and price................failed
+And user click on continue button...........................................skipped
+Then user navigate to passengers page.......................................skipped
+Given user is on spiceJet passengers page...................................skipped
+When user fill contact details "Peter","Desuja","9876543211","abcd@pqr.com"and "Munbai".skipped
+And user fill passenger information "Remo","Desuja" and "9876543221"........skipped
+And click on continue button................................................skipped
+Then user navigate to next page.............................................skipped
+Given user already fill passenger details and user is on Add-on page........skipped
+When user first select seat "2B"............................................skipped
+And user select meals "Dosa" and click on done button.......................skipped
+Then user nevigate to Add-on page...........................................skipped
+And click on continue button again..........................................skipped
+Then user nevigate to payment page..........................................skipped
+Given user is on payment page...............................................skipped
+When user fetch data from payment page......................................skipped
+And verify the prices and cities name are same or not.......................skipped
+And verify prices without adding convenience fee............................skipped
+Then user print message all test cases are correctlly done..................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.xpath: (//*[text()="5,619"])[1]
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'BADBOY', ip: '192.168.230.1', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at spiceJet_Pages.Select_Flight.selectFlight(Select_Flight.java:30)
+	at spiceJet_Steps.SpiceJet_SelectFlight.user_select_and_fetch_flight_number_and_price(SpiceJet_SelectFlight.java:28)
+	at ✽.user select "Spicemax" and fetch flight number and price(file:///C:/Users/admin/Desktop/Tasks/SpiceJet/src/test/resources/Features/SpiceJet_PaymentPage.feature:11)
+]]></failure>
+    </testcase>
+</testsuite>

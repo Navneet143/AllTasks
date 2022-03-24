@@ -1,0 +1,132 @@
+Test Suite - Login Page
+
+Prerequisite - Launch the website "www.myntra.com" 
+*Make sure it redirect you to the correct page.
+
+Test Cases
+
+1) Click on continue with blank phone no 
+1.1) Directly click continue 
+
+Data
+Phone no:-  
+Expected Result :-  Please enter a valid mobile no(10 digits)
+
+2) Continue with Phone no. lesser than 10 digits(with respective to the country code)
+2.1) Enter a phone no. lesser than 10 digits
+2.2) Click Continue.
+Data
+Phone no:- 98765
+Expected Result - Please enter a valid mobile no(10 digits)
+
+
+3)  Continue with Phone no. containg  characters
+3.1) Enter Phone no
+3.2) Click Continue
+Data
+Phone no:-  98da763
+Expected Result - Please enter a valid mobile no(10 digits)
+
+4) Continue with a valid phone no.
+4.1) Enter Valid Phone no.
+4.2) Click Continue 
+
+Data
+Phone no:- 9876543210  
+Expected Result - Verify with Otp. 
+
+Login using OTP
+5) Continue with wrong otp 
+5.1) Enter wrong otp
+Data
+OTP :- 8721(Incorrect otp)
+
+Expected Result - Incorrect otp
+
+6) Continue with correct otp 
+6.1) Enter Correct otp
+Data
+OTP :- 9731(otp which is received on Phone no.)
+
+Expected Result - Login Succesfully
+
+Login using Password:- CLick login using password
+Expected Result:- Redirect to the login Form in which no. already mentioned.
+
+7) Login with wrong phone no. and correct password
+7.1) Enter phone no. and password.
+7.2) Click Login 
+
+Data
+Phone no:- 987654321x
+Password :- P@ssword
+
+Expected Result - Incorrect phone no. or password 
+
+8) Login with wrong phone no. and wrong password
+8.1) Enter phone no. and password.
+8.2) Click Login 
+
+Data
+Phone no:- 987654321x
+Password :- xxxxxx
+
+Expected Result - Incorrect phone no. or password 
+
+9) Login with Correct phone no. and wrong password
+9.1) Enter phone no and password.
+9.2) Click Login 
+
+Data
+Phone no:- 9876543210
+Password :- xxxxxx
+
+Expected Result - Incorrect phone no. or password 
+
+10) Login with blank phone no. and blank password
+10.1) Click Login 
+
+Data
+Phone no:- 
+Password :- 
+
+Expected Result - a) Please Enter a valid Email or phone no. 
+		  b) Please Enter a password
+
+11) Login with correct phone no. and correct password
+11.1) Enter phone no and password.
+11.2) Click Login 
+
+Data
+Phone no:- 9876543210
+Password :- P@ssword
+
+Expected Result - Logged in Successfully 
+
+Search Page 
+12) Search with "enter" keyword.
+12.1) Click search bar  
+12.2) Insert a Value and press "Enter"
+
+Data
+Value:- Shoes
+
+Expected Result:- Show a result page with products related to input value 
+
+13) Search with no/blank value
+13.1) Click search bar  
+13.2) Press "Enter"
+
+Data
+Value:- 
+
+Expected Result:- No changes Should occur.
+
+14) Search with mis-spelled brand name.
+14.1) Click search bar  
+14.2) Insert a Value and press "Enter"
+
+Data
+Value:- Nikke
+
+Expected Result:- Show a result page with products similar to the input value.In this case show the products of "nike".  
